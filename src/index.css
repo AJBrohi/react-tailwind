@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero-card {
+  @apply flex flex-col justify-center items-center bg-white h-screen font-mono py-40;
+}
+
+.center {
+  @apply flex flex-col justify-center items-center;
+}
+
+.hero-card img {
+  @apply h-full rounded mb-20 shadow;
+}
